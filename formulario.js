@@ -82,7 +82,7 @@ elementoLista.appendChild(inputNombre)
 elementoLista.appendChild(espacio)
 }
 
-crearElemento("Nombre", nombre)
+
 crearElemento("Edad", edad)
 crearElemento("Nacionalidad", nacionalidad)
 
@@ -94,7 +94,7 @@ var corteLinea = document.createElement("br")
 elementoLista.appendChild(corteLinea)
 elementoLista.appendChild(botonBorrar);
 
- botonBorrar.onclick = function() {
+botonBorrar.onclick = function() {
 // this.parentNode.style.display = 'none';
 botonBorrar.parentNode.remove()
   }
