@@ -1,0 +1,71 @@
+body {
+  background: #f0c27b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f0c27b, #4b1248); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.formulario input, select {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+
+.error {
+  background-color: #4b12489b;
+}
+
+.elemento-lista {
+  color: #4b1248;
+  font-family: Verdana;
+  margin: 10px 0;
+  border: 5px solid #4b1248;
+  border-radius: 5px;
+  padding: 0 5px;
+  width: 400px;
+  margin: 20px
+}
+
+.elemento-lista input {
+  border: none;
+  background: none;
+  color: #4b1248;
+  font-family: Verdana;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.titulo{
+  margin-top: 40px;
+  font-size: 4rem;
+  color: #4b0547;
+}
+
+.confirmacion, .listaInvitados{
+  margin-top: 20px;
+  color: rgb(51, 4, 65);
+}
+
+.btnEnviar{
+  background-color: rgb(202, 12, 123);
+  text-align: center;
+  color: aliceblue;
+  border-radius: 5px;
+  align-items: center;
+}
+
+button{
+  background-color: #f19407;
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+
+
